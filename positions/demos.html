@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="divport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 7vw;
+        }
+
+        .images {
+            position: relative;
+            width: 13vw;
+            height: 13vw;
+        }
+
+        .avatar {
+            width: 13vw;
+            height: 13vw;
+            border-radius: 13vw;
+        }
+
+        .sex {
+            width: 5vw;
+            height: 5vw;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .name {
+            color: #000;
+            font-size: 5.5vw;
+            display: inline-block;
+            max-width: 15vw;
+            margin-top: 8px;
+        }
+
+        .basic {
+            display: inline-block;
+            position: static;
+            font-size: 3.73vw;
+            margin-top: 3vw;
+        }
+
+        .sex_info {
+            display: inline-block;
+            height: 3.73vw;
+            padding-right: 3vw;
+        }
+
+        .age {
+            border-left: solid #ddd 1px;
+            border-right: solid #ddd 1px;
+            display: inline-block;
+            padding: 0px 3vw;
+            height: 3.73vw;
+        }
+
+        .address {
+            display: inline-block;
+            padding-left: 4.5vw;
+            height: 3.73vw;
+        }
+
+        .tab {
+            display: flex;
+            justify-content: center;
+            font-size: 4.2vw;
+            margin-top: 10vw;
+        }
+
+        .tab_item {
+            display: inline-block;
+            padding-bottom: 2vw;
+            color: #bbb;
+            margin: 0px 6vw;
+        }
+
+        .tab_item.active {
+            border-bottom: solid #7470ff 2px;
+            color: #000;
+        }
+
+        .items {
+            padding-left: 8.13vw;
+            font-size: 4.2vw;
+            color: #222;
+            margin-bottom: 18vw;
+            display: block;
+        }
+
+        .item {
+            margin-top: 6vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .info {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            color: #999999;
+            font-weight: 500;
+            font-size: 4.2w;
+        }
+
+        .icon {
+            height: 4.8vw;
+            width: 4.8vw;
+        }
+
+        .right_icon {
+            width: 3.3vw;
+            height: 3.3vw;
+            padding-right: 40px;
+        }
+
+       .item .text_info {
+            color: #222222;
+            font-size: 4.26w;
+            font-weight: 500;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .text {
+            display: inline-block;
+            padding-left: 2vw;
+        }
+
+        .bottom_bt {
+            color: #222;
+            font-size: 4vw;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            border-top: solid #ddd 1px;
+            text-align: center;
+            width: 100vw;
+            padding: 3.5vw 0px;
+            background-color: #fff;
+        }
+
+        .nav {
+            position: fixed;
+            right: 0px;
+            top: 9.2vw;
+            width: 10.5vw;
+            height: 10.5vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='items'>
+
+        <div class='item'>
+            <div class='info'>
+                <div>第一次手术信息</div>
+                <image class='right_icon' src='/images/home_icon_return_right.png'></image>
+            </div>
+            <div class='text_info'>
+                <image class='icon' src='/images/usercenter/mine_icon_doctor.png'></image>
+                <div class='text'>
+                    何医生
+                </div>
+            </div>
+            <div class='text_info'>
+                <image class='icon' src='/images/usercenter/mine_icon_types.png'></image>
+                <div class='text'>
+                    受体
+                </div>
+                <div class='text'>
+                    亲属活体肾移植
+                </div>
+            </div>
+            <div class='text_info'>
+                <image class='icon' src='/images/usercenter/mine_icon_surgery.png'></image>
+                <div class='text'>
+                    西京医院
+                </div>
+                <div class='text'>
+                    何医生
+                </div>
+                <div class='text'>
+                    2019-08-04
+                </div>
+            </div>
+            <div class='text_info'>
+                <image class='icon' src='/images/usercenter/mine_icon_family.png'></image>
+                <div class='text'>
+                    于小敏
+                </div>
+                <div class='text'>
+                    女
+                </div>
+                <div class='text'>
+                    女儿
+                </div>
+                <div class='text'>
+                    18629021754
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

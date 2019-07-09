@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .page{
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        background-color: antiquewhite;
+        margin: 10px;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    .around{
+        justify-content: space-around;
+    }
+    .between{
+        justify-content: space-between;
+    }
+    .evenly{
+        justify-content: space-evenly;
+    }
+    .stretch{
+        justify-content:stretch;
+    }
+    .item{
+        height: 50px;
+        width: 100px;
+        background-color: blue;
+        margin: 1px;
+    }
+    .div{
+
+        background-color: blue;
+        margin: 1px;
+    }
+    .itemx{
+        flex-grow:2;
+    }
+    .item1{
+        flex-grow:1;
+    }
+    .item2{
+        flex-grow:2;
+    }
+    .item3{
+        flex-grow:3;
+    }
+    .item4{
+        flex-grow:4;
+    }
+    .basic{
+        flex-basis: 300px;
+    }
+    .s1{
+        flex-shrink: 2;
+        width: 200px;
+    }
+    .s2{
+        flex-shrink: 3;
+        width: 200px;
+    }
+    .s3{
+        flex-shrink: 4;
+        width: 200px;
+    }
+    .s4{
+        flex-shrink: 5;
+        width: 200px;
+    }
+    .page.sx{
+        flex-wrap: nowrap;
+    }
+    .first{
+        order: 1;
+    }
+    </style>
+</head>
+<body>
+    <div class="page around">
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+    </div>
+    <div class="page between">
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+    </div>
+
+    <div class="page evenly">
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+    </div>
+    <div class="page stretch">
+        <div class="item">
+          1
+        </div>
+        <div class="item">
+         2
+        </div>
+        <div class="item">
+          3
+        </div>
+    </div>
+    <div class="page around">
+        <div class="item1 item" >
+          1
+        </div>
+        <div class="item basic">
+         2
+        </div>
+        <div class="item item3">
+          3
+        </div>
+        <div class="item item4">
+            3
+          </div>
+    </div>
+    <div class="page sx around">
+        <div class="s1 item" >
+          1
+        </div>
+        <div class="item s2">
+         2
+        </div>
+        <div class="item s3">
+          3
+        </div>
+        <div class="item s4 first">
+           4
+          </div>
+    </div>
+    <div class="page around">
+        <div class="div" >
+          1
+        </div>
+        <div class="div">
+         2
+        </div>
+        <div class="div">
+          3
+        </div>
+        <div class="div">
+           ffferterter
+          </div>
+    </div>
+</body>
+</html>

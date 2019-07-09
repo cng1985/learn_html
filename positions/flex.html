@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .page {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            background-color: antiquewhite
+        }
+
+        .b1 {
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            background-color: aquamarine;
+        }
+
+        .b2 {
+            display: flex;
+            background-color: blueviolet;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .b3 {
+            padding: 10px;
+            display: inline-block;
+            background-color: aquamarine;
+            font-size: 20px;
+        }
+
+        .b4 {
+            padding: 10px;
+            display: inline-block;
+            background-color: brown;
+        }
+        .b6{
+            background-color: red;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="b1">第一小块</div>
+        <div class="b1">第二小块</div>
+        <div class="b1">第三小块</div>
+        <div class="b2">
+            <div class="b3">
+                <div class="b6">b6</div>
+            </div>
+            <div class="b4">b4</div>
+        </div>
+    </div>
+</body>
+
+</html>

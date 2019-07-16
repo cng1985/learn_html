@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .table {
+            display: table;
+            padding: 11rpx 31rpx;
+            width: 50vw;
+            box-sizing: border-box;
+        }
+
+        .tr {
+            display: table-row;
+        }
+        .table .tr:nth-child(2n+1){
+            background-color: antiquewhite;
+        }
+        .td {
+            display: table-cell;
+            justify-content: center;
+            text-align: center;
+            border-left: solid #666 1px;
+            border-top: solid #666 1px;
+            height: 95rpx;
+            box-sizing: content-box;
+            vertical-align: middle;
+            font-size: 30rpx;
+            line-height: 23rpx;
+        }
+        .tr div:last-child{
+          
+            border-right: solid #666 1px;
+        }
+        .table .tr:last-child .td{
+            border-bottom: solid #666 1px;
+        }
+        .table .tr:last-child .td:first-child{
+            border-bottom: solid #666 1px;
+        }
+        .table .tr:first-child .td:first-child{
+            border-top-left-radius: 8px;
+        }
+        .table .tr:first-child .td:last-child{
+            border-top-right-radius: 8px;
+        }
+        .table .tr:last-child .td:first-child{
+            border-bottom-left-radius: 8px;
+        }
+        .table .tr:last-child .td:last-child{
+            border-bottom-right-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table">
+        <div class="tr">
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+        </div>
+        <div class="tr">
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+        </div>
+        <div class="tr">
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+        </div>
+        <div class="tr">
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+            <div class="td">111</div>
+        </div>
+    </div>
+</body>
+
+</html>

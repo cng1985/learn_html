@@ -1,0 +1,1 @@
+var rules = [{ equal_max: 0, equal_min: 1, max_value: 0.5, min_value: 0, step_value: 0.25}, {equal_max: 0, equal_min: 1, max_value: 1000, min_value: 0.5, step_value: 0.5}]

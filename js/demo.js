@@ -21,3 +21,11 @@ other.show=function(){
 
 demo.show();
 other.show();
+
+var d="a23";
+var test={d:"111"};
+console.info(test);
+var 人={};
+人.姓名="陈坤"
+人.年龄=29;
+console.info(人);

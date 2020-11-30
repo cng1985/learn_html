@@ -13,8 +13,7 @@ function SpannableUtil() {
 }
 var SpannableUtil = new SpannableUtil();
 SpannableUtil.append("hi");
-console.info(SpannableUtil.str);
-<<<<<<< HEAD
+
 console.info(typeof SpannableUtil);
 
 var demo = (num) => {
@@ -39,6 +38,3 @@ setTimeout(()=>{
 },2000)
 
 console.info("haha");
-=======
-console.info(typeof SpannableUtil);
->>>>>>> 52dbc8836bdcb0436667454743bb32d61b1165a7

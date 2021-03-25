@@ -18,3 +18,4 @@ const max = Math.max.apply(null, numbers);
 
 show.apply(demo,numbers)
 show.call(demo,1,2)
+console.info(show.name);
